@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this is a fiction website">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <title>Hassan WebSite</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">MJR</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="#" >Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#" >Galery</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#" >products</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#" >About</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section>
+            <h1 class="text-center">Personal Website</h1>
+            <div class="">
+                <h2>article one</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus soluta quos amet, modi aperiam
+                    ducimus eligendi ad consectetur sunt tempore impedit placeat, odio similique magni <em class="h6"
+                        >veniam culpa a aliquid saepe,</em> consequuntur harum recusandae doloremque?
+                    Nam suscipit veritatis <b>saepe quia, exercitationem </b>ratione hic doloremque culpa quos
+                    molestias. Illum tenetur, ullam sit tempora sed ducimus fugit. Dignissimos, delectus. Optio ducimus
+                    numquam iusto amet id cupiditate deleniti hic laborum rerum nihil? Debitis eveniet magni maiores
+                    ullam ratione cupiditate sapiente repellendus ipsam accusamus recusandae sint perspiciatis dolorem
+                    unde, eaque delectus tempore reprehenderit! Laborum ex placeat dignissimos odit unde, accusantium
+                    maiores praesentium adipisci nobis! Quam?</p>
+                <div class="d-flex justify-content-center">
+                    <table class="table table-striped table-hover w-75">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">id</th>
+                                <th scope="col">name</th>
+                                <th scope="col">price $</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>1001</td>
+                                <td>auto</td>
+                                <td>15000</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>1002</td>
+                                <td>laptop</td>
+                                <td>1000</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>1003</td>
+                                <td>glass</td>
+                                <td>10</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="article">
+                <h2>article two</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus soluta quos amet, modi aperiam
+                    fugit. Dignissimos, delectus. Optio ducimus numquam iusto amet id cupiditate deleniti hic laborum
+                    rerum nihil? Debitis eveniet magni maiores <em>ullam ratione cupiditate sapiente </em>repellendus
+                    ipsam accusamus perspiciatis dolorem unde, eaque adipisci nobis! Quam?</p>
+            </div>
+
+        </section>
+        <footer class="row bg-dark text-light">
+            <div class="col-md">
+                <div class="card text-dark align-middle m-5 " >
+                    <div class="card-body">
+                        <h5 class="card-title">title</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nulla saepe porro aliquam eveniet esse suscipit, accusantium libero, ratione eaque nostrum veritatis, eligendi magni in? Nisi tenetur consequatur doloribus aspernatur facere, cumque expedita perspiciatis veritatis alias eius a, reiciendis eum?</p>
+                        <a href="#" class="card-link">link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+                <div class="card text-dark align-middle p-2 m-5">
+                    <h4>Comments</h4>
+                    <div id="commentsBox" class="overflow-auto" style="max-height: 450px;">
+                        <div class=" commentBox border-top">
+                            <h5 class="mb-0">name</h5>
+                            <span class="fw-lighter ">position</span>
+                            <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae laboriosam pariatur dolorem.</p>
+                            <p class=" text-right fw-lighter m-0">date</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h2>contact us</h2>
+                <form>
+                    <div class="mb-3">
+                        <label class="form-label">position</label>
+                        <select name="position" class="form-select" id="position">
+                            <option value="seller">seller</option>
+                            <option value="buyer">buyer</option>
+                            <option value="inspector">inspector</option>
+                            <option value="other">other</option>
+                        </select>
+                    </div>
+                    <label class="form-label">date:</label>
+                    <input class="form-control" type="date" name="date" id="date">
+                    <label class="form-label">name</label>
+                    <input class="form-control" type="text" placeholder="Enter your name" name="name" id="fullName"><br>
+                    <label class="form-label">massege</label>
+                    <textarea class="form-control" name="massege" cols="30" rows="10" id="comment"></textarea>
+                    <label class="form-text">How is our Website?</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="reason" value="r1">
+                        <label class="form-check-label">Good</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="reason" value="r2">
+                        <label class="form-check-label">Not bad</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="reason" value="r3">
+                        <label class="form-check-label">Bad</label>
+                    </div>
+                    <label class="form-text">Do you want to show your message in the Page?</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="ready" value="true" id="showComment">
+                        <label class="form-check-label">Yes!</label>
+                    </div>
+                    <p id="msg" class="m-0"></p>
+                    <button class="btn btn-primary w-100 mb-4" id="commentSubmit">submit</button>
+                </form>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+        <script src="main.js"></script>
+</body>
+
+</html>
