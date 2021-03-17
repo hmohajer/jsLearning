@@ -14,7 +14,7 @@
 // // const numbers = new Array(1,2,3,4,5,6);
 // // console.log(numbers);
 // const fruits = ["apple", "orange", "pear", 10, ];
-// console.log(fruits[1]);
+// // console.log(fruits[1]);
 // fruits[3] = "grape";
 // fruits.push("mango");
 // fruits.unshift("strawberies")
@@ -202,7 +202,7 @@
 //     document.querySelector(".items").lastElementChild.style.color = "black";
 
 // })
-
+// /////
 const myForm = document.querySelector("#my-form");
 const nameInput = document.querySelector("#name");
 const emailInput = document.querySelector("#email");
@@ -228,5 +228,5 @@ function onSubmit(e){
         emailInput.value = "";
     }
     
-}
+// }
 
